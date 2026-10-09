@@ -10,7 +10,7 @@
       "name": "gatana",
       "source": "./plugins/claude",
       "description": "The tools and skills of your organization in Gatana, and the tools of its Gatana gateway. You choose the organization when you sign in.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "category": "productivity"
     }
   ]
