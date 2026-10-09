@@ -14,9 +14,6 @@
     "gateway",
     "gatana"
   ],
-  "repository": "https://github.com/gatana-ai/plugins",
-  "license": "MIT",
-  "documentationUrl": "https://docs.gatana.ai/skills/",
-  "privacyPolicyUrl": "https://www.gatana.ai/privacy-policy",
-  "termsOfServiceUrl": "https://www.gatana.ai/terms-of-service"
+  "repository": "https://github.com/gatana-ai/gatana-plugins",
+  "license": "MIT"
 }

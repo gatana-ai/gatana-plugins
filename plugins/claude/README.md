@@ -19,3 +19,7 @@ You see only the skills that you have access to in Gatana.
 The plugin connects Claude to the Gatana gateway of your organization. Claude sends skill searches, skill names and new skill texts to it, and receives the skills that you can read. The gateway also gives Claude the tools of the MCP servers that your organization connected to Gatana. The plugin itself stores nothing.
 
 More information: https://docs.gatana.ai/skills/
+
+Privacy policy: https://www.gatana.ai/privacy-policy
+
+Terms of service: https://www.gatana.ai/terms-of-service

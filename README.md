@@ -12,7 +12,7 @@ You need a Gatana account. When you connect the plugin, you choose your organiza
 ### Claude Code
 
 ```
-/plugin marketplace add gatana-ai/plugins
+/plugin marketplace add gatana-ai/gatana-plugins
 /plugin install gatana@gatana
 ```
 
@@ -21,13 +21,13 @@ Then run `/mcp`, select `plugin:gatana:gatana`, and sign in.
 ### Claude (claude.ai, the desktop app, Cowork)
 
 1. Go to **Customize > Plugins** and select **Add > Add marketplace**.
-2. Enter `gatana-ai/plugins`.
+2. Enter `gatana-ai/gatana-plugins`.
 3. Install **Gatana**. Open the plugin, connect Gatana on the **Connectors** tab, and sign in.
 
 ### Codex
 
 ```bash
-codex plugin marketplace add gatana-ai/plugins
+codex plugin marketplace add gatana-ai/gatana-plugins
 codex plugin add gatana@gatana
 ```
 

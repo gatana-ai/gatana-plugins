@@ -1,6 +1,6 @@
 ---
 name: gatana-skills
-description: Use at the start of any work task, before you plan or act, to check whether your organization has a Gatana skill for it (how to deploy, review, investigate, report and other work done here) and follow it. Also use when the user asks to find, save or change a team skill or "how we do X".
+description: Use at the start of any work task. It contains instructions how to interact with Gatana MCP Gateway and Skills Gateway. In order to check whether your organization has a Gatana skill for it (how to deploy, review, investigate, report and other work done here) and follow it. Also use when the user asks to find, save or change a team skill or "how we do X".
 ---
 
 # Gatana skills
@@ -9,7 +9,7 @@ Your organization keeps its skills in Gatana: Markdown instructions that say how
 
 ## At the start of a task
 
-1. List the skills. Call the Gatana tool `skills_list_skills` (in some clients the name has a prefix, such as `mcp__gatana__skills_list_skills`). Give a short `query` when the task has a clear keyword, or no arguments to list all.
+1. List the skills. Call the Gatana tool `skills_list_skills` (in some clients the name has a prefix, such as `mcp__gatana__skills_list_skills`). Only use `query` argument when the task has a very clear keyword.
 2. Read the list. Each line has a name, a description of when the skill applies, and a date. Skills are grouped by collection.
 3. When a skill applies, read it with `skills_get_skill` and its `name`. Follow its instructions for this task. Tell the user which skill you follow.
 4. When no skill applies, do the task as usual. Do not mention the check.
