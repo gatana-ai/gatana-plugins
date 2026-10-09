@@ -1,0 +1,43 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "gatana",
+  "version": "1.0.0",
+  "description": "Find and follow your organization's Gatana skills, and use the tools of its Gatana gateway.",
+  "author": {
+    "name": "Gatana",
+    "url": "https://www.gatana.ai"
+  },
+  "homepage": "https://docs.gatana.ai/skills/",
+  "keywords": [
+    "skills",
+    "mcp",
+    "gateway",
+    "gatana"
+  ],
+  "extensions": {
+    "com.openai": {
+      "apps": "./.app.json",
+      "interface": {
+        "displayName": "Gatana",
+        "shortDescription": "Your team's skills and tools",
+        "longDescription": "Gatana stores how work is done in your organization as skills: how to deploy a service, review a pull request or investigate an error. This plugin makes the agent check those skills at the start of a task and follow the one that applies. You see only the skills you have access to in Gatana.",
+        "developerName": "Gatana",
+        "category": "Productivity",
+        "capabilities": [
+          "Read",
+          "Write"
+        ],
+        "websiteURL": "https://www.gatana.ai",
+        "privacyPolicyURL": "https://www.gatana.ai/privacy-policy",
+        "termsOfServiceURL": "https://www.gatana.ai/terms-of-service",
+        "defaultPrompt": [
+          "Which Gatana skills apply to this task?",
+          "Save how we did this as a Gatana skill"
+        ],
+        "brandColor": "#675dff",
+        "composerIcon": "./assets/icon.svg",
+        "logo": "./assets/logo.png"
+      }
+    }
+  }
+}

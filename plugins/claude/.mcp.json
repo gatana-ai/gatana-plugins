@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "gatana": {
+      "type": "http",
+      "url": "https://gatana.ai/mcp"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "gatana",
+  "displayName": "Gatana",
+  "version": "1.0.0",
+  "description": "Find and follow your organization's Gatana skills, and use the tools of its Gatana gateway.",
+  "author": {
+    "name": "Gatana",
+    "url": "https://www.gatana.ai"
+  },
+  "homepage": "https://docs.gatana.ai/skills/",
+  "keywords": [
+    "skills",
+    "mcp",
+    "gateway",
+    "gatana"
+  ],
+  "repository": "https://github.com/gatana-ai/plugins",
+  "license": "MIT",
+  "documentationUrl": "https://docs.gatana.ai/skills/",
+  "privacyPolicyUrl": "https://www.gatana.ai/privacy-policy",
+  "termsOfServiceUrl": "https://www.gatana.ai/terms-of-service"
+}

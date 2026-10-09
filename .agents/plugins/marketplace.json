@@ -1,0 +1,20 @@
+{
+  "name": "gatana",
+  "interface": {
+    "displayName": "Gatana"
+  },
+  "plugins": [
+    {
+      "name": "gatana",
+      "source": {
+        "source": "local",
+        "path": "./plugins/chatgpt"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
