@@ -16,7 +16,6 @@
   ],
   "extensions": {
     "com.openai": {
-      "apps": "./.app.json",
       "interface": {
         "displayName": "Gatana",
         "shortDescription": "Your team's skills and tools",
